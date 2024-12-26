@@ -7,7 +7,7 @@ export function calculator() {
   const [number, setnumber] = useState();
   return (
     <div>
-      <p>Number:{number}</p>
+      <p>{number}</p>
       <div style={{ display: "flex" }}>
         {numbers.map((number) => {
           return (
